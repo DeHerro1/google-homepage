@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        nav{
+            
+            height: 40px;
+            width: 100%;
+            position:fixed;
+            z-index: 7;
+            top: 0px;
+            left: 0px;
+        }
+        #sub_nav{
+            margin: 20px;;
+            float: right;
+           
+        }
+       
+        #sign_in{
+            background: #0099CC ;
+            color: white;
+            margin: 0px 20px;
+            width:70px;
+            height: 30px;
+           border-radius: 5px;
+           text-decoration: none;
+           font-family: verdana;
+           
+           
+        }
+        #mail{
+            margin: 0px 20px;
+            text-decoration: none;
+        }
+        #tabs{
+            text-decoration: none;
+        }
+        #bossu{
+            width: 100%;
+            height: 100%;
+            
+        }
+       
+        #overall{
+            
+            position: fixed;
+            top:180px;
+            left:30%;
+           
+        }
+        .search{
+            width:800px ;
+            
+        }
+        svg{
+            width: 20px;
+            height: 20px;
+            
+            padding: 0px;
+            margin: 0px;
+        }
+        .buttoms{
+            width: 400px;
+            text-decoration: none;
+            border-radius: 10px;
+            height: 30px;
+            border:1px solid rgba(149, 149, 155, 0.397);
+        }
+       
+        img{
+            margin-left: 80px;
+            margin-bottom: 40px;
+        }
+        .sub_buttons{
+                    margin: 20px 40px;
+            }
+        .lang{
+            padding: 10px;
+        }  
+        footer{
+            background:rgba(208, 208, 211, 0.397);
+            position: fixed;
+            top:500px;
+            left:0px;
+            width:100%;
+            height: 100px;
+
+        }  
+        #country{
+            border-bottom:2px solid rgba(8, 8, 8, 0.13);
+            padding: 10px;
+            margin: 0px 0px 5px 20px;
+        }
+        .homes{
+            display: inline-block;
+            padding: 10px 0px 0px 30px;
+        }
+
+
+    
+    </style>
+</head>
+<body>
+    <div id="bossu">
+    <nav>
+        <div id="sub_nav">
+            <a id="mail" href="#">Gmail</a>
+            <a id="tabs" href="#">Images</a>
+            
+            <input type="button" id="sign_in" value="Sign In"/>
+        </div>    
+    </nav>
+        <div id="overall">
+        <div><img alt="GOOGLE" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></div>
+        <div id="search">
+            <input type="text"  class="buttoms" placeholder="Search Here" />
+            <br/>
+        </div>    
+        <input type="button" class="sub_buttons" value="Google Search"/>
+        <input type="button" class="sub_buttons" value="I'm Feeling Lucky"/>
+
+        <div>
+            Google offered in:<a class="lang" href="#">Hausa</a>
+                            <a class="lang" href="#">Akan</a>
+                            <a class="lang" href="#">Akan</a>
+                            <a class="lang" href="#">Ewe</a>
+        </div>
+        
+    </div>
+    <footer>
+            <div id="country">Ghana</div>
+            <div class="homes">Advertising</div>
+            <div class="homes">Business</div>
+            <div class="homes">About</div>
+            <div class="homes">How Search works</div>
+        </footer>
+    </div>        
+</body>
+</html>
